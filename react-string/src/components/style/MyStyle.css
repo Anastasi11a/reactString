@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+h1.header {
+    justify-content: center;
+    text-align: center;
+    color: #358080;
+    font-size: 32px;
+}
+
+div.component {
+    text-align: center;
+    background-color: #193d3d;
+    margin: 10px 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #358080;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #358080;
+    border-radius: 5px;
+    margin: 10px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+div.counter, 
+div.string, 
+div.palindrome,
+div.capitalize,
+div.word,
+div.substring,
+div.whitespace {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-top: 20px;
+    text-shadow: 2px 1px 3px rgba(2, 2, 2, 0.4);
+    line-height: 40px;
+}
+
+span.intro {
+    color: #369e44;
+    padding: 16px;
+}
